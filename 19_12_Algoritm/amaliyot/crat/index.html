@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+
+    <div class="all">
+        <div class="search-add">
+            <div class="add">
+                <button id="openModalBtn">Add User</button>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="search...">
+                <button>Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards" id="wrapper">
+        
+    </div>
+
+    <!-- --------------------------------------------------- 
+    modalll-->
+    <div class="all">
+        <img id="img" alt="Tanlangan rasm">
+
+        <div class="modal" id="modal">
+            <div class="img">
+                <label for="fileInput">Rasm Tanlash</label>
+                <input type="file" id="fileInput" accept="image/*">
+            </div>
+            <div class="name"><input type="text" placeholder="Enter to name..." id="name"></div>
+            <div class="adress"><input type="text" placeholder="Enter to adress..." id="adress"></div>
+            <div class="desc"><input type="text" placeholder="Enter to description..." id="desc"></div>
+            <div class="save">
+                <button id="save">Saqlash</button>
+                <button id="closeModalBtn">Yopish</button>
+            </div>
+        </div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+</html>

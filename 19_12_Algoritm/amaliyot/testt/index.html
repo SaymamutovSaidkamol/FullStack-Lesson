@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Modal Rasm</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="all">
+        <button id="openModalBtn">Modalni ochish</button>
+        <img id="img" alt="Tanlangan rasm">
+
+        <div class="modal" id="modal">
+            <div class="img">
+                <label for="fileInput">Rasm Tanlash</label>
+                <input type="file" id="fileInput" accept="image/*">
+            </div>
+            <div class="name"><input type="text" placeholder="Enter to name..." id="name"></div>
+            <div class="adress"><input type="text" placeholder="Enter to adress..." id="adress"></div>
+            <div class="desc"><input type="text" placeholder="Enter to description..." id="desc"></div>
+            <div class="save">
+                <button id="save">Saqlash</button>
+                <button id="closeModalBtn">Yopish</button>
+            </div>
+        </div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
