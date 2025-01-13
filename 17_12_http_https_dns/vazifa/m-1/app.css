@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.all #write-text{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: none;
+}
+.all #search-letter{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: none;
+}
+#output-letter{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px 10px;
+    width: 17%;
+    border-radius: 10px;
+    background-color: rgb(89, 130, 166);
+    border: none;
+}

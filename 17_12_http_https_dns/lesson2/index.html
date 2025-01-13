@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Example</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+
+    <div class="price">
+        <select name="til" id="prices">
+            <option value="r">Sum</option>
+            <option value="u">Dollor</option>
+        </select>
+        <button id="add-button">Add</button>
+    </div>
+
+<table>
+    <thead>
+        <tr>
+            <td><b>PenName</b></td>
+            <td><b>Price</b></td>
+            <td><b>Date</b></td>
+        </tr>
+    </thead>
+    
+    <tbody id="tbody">
+    </tbody>
+</table>
+
+<h1 id="totalPrice">Jami narxlar: 0</h1>
+<h1 id="Maxrice">Jami narxlar: 0</h1>
+<h1 id="MinPrice">Jami narxlar: 0</h1>
+
+<!-- Modal Structure -->
+<!-- <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+        <div class="inputs">
+            <input type="hidden" id="ItemId">
+            <input type="text" id="PenName" placeholder="Name">
+            <input type="text" id="Price" placeholder="Narxi">
+            <input type="date" id="Date">
+        </div>
+        <button class="close-btn" id="closeBtn">Cancel</button>
+        <button class="save-btn" id="savedBtn">Save</button>
+    </div>
+</div> -->
+
+<script src="./main.js"></script>
+</body>
+</html>

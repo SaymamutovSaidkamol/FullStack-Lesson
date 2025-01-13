@@ -1,0 +1,60 @@
+table {
+    /* width: 80%; */
+    border-collapse: collapse;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #cac4c4;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.icons button i{
+    background-color: #cac4c4;;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-size: 25px;
+}
+.icons button{
+    background-color: white;
+    border: none;
+}
+
+th, td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+th {
+    background-color: #f4f4f4;
+}
+
+.price{
+    text-align: center;
+    width: 100%;
+}
+
+.price select{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #b9bbbe;
+    border: none;
+}
+.price button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #0efb46;
+    border: none;
+}
