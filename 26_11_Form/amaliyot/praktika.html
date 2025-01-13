@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jadval</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Oddiy Jadval</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" >Pizza Shop 2.0</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" list="name">
+                <datalist id="name">
+                    <option value="Saidkamol">
+                    <option value="Azamat">
+                    <option value="Sardor">
+                    <option value="Diyorbek">
+                </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Piiza Topping</td>
+                <td><label for="en2">Supreme</label><input id="en2" type="radio" name="talim"/>
+                    <br>
+                    <label for="ru2">Vegetarian</label><input id="ru2" type="radio" name="talim"/>
+                    <br>
+                    <label for="uz2">Hawaiian</label><input id="uz2" type="radio" name="talim"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td><select name="" id="">
+                    <option value="">Tomato</option>
+                    <option value="">Vater</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td> <label for="en">Extra Cheese</label><input id="en" type="checkbox"/>
+                    <label for="ru">Gluten Free Base</label><input id="ru" type="checkbox"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h>Delivery Instructions:</h>
+                    <br>
+                    <textarea name="" id="", rows="5" cols="50" placeholder="comment"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button>Send my order</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
