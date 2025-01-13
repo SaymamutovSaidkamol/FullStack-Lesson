@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  margin: 50px 100px;
+  background-color: greenyellow;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 100px repeat(3, 60px) 100px;
+  gap: 10px;
+}
+
+.card {
+  background-color: pink;
+}
