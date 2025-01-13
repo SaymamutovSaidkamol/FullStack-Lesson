@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Bilan Ishlash</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <h1 class="txt">Ma'lumotlar Ro'yxati</h1>
+    <ul id="data-list"></ul>
+
+    <div class="all">
+        <div class="qushish">
+            <h2>Yangi Ma'lumot Qo'shish</h2>
+            <input type="text" id="nameInput" placeholder="Nomi">
+            <button onclick="createPRD()">Qo'shish</button>
+        </div>
+    
+        <div class="uchirish">
+            <h2>Ma'lumotni O'chirish</h2>
+            <input type="text" id="deleteIdInput" placeholder="ID">
+            <button onclick="deleteData()">O'chirish</button>
+        </div>
+    
+        <div class="uzgartir">
+            <h2>Ma'lumotni O'zgartirish</h2>
+            <input type="text" id="updateIdInput" placeholder="ID">
+            <input type="text" id="updateNameInput" placeholder="Yangi Nomi">
+            <button onclick="updateData()">O'zgartirish</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

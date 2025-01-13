@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.box{
+    display: flex; /* Flexbox yoqiladi */
+    flex-wrap: wrap; /* Kartochkalar sig‘magan joyda pastga tushadi */
+    gap: 20px; /* Kartochkalar orasidagi bo‘sh joy */
+    justify-content: space-between; /* Kartalarni yonma-yon joylashtirish */
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+/* body{
+    background-color: black;
+} */
+
+
+.box .card{
+    display: flex; /* Flexboxni yoqamiz */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+}
+
+.box .card img{
+    width: 80%;
+    margin-left: 25px;
+    margin-bottom: 20px
+}
+
+.box .card button{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 50px;  
+    padding: 20px;
+    background-color: white;
+    background: 1px solid #03CEA4;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px rgba(3, 3, 3, 0.2);
+
+}
