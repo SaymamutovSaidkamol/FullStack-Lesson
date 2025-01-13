@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "fullname": "Kabirov",
+        "username": "Alex",
+        "gmail": "alex@gmail.com",
+        "password": 1234,
+        "role": "Admin"
+    },
+    {
+        "fullname": "Aziz",
+        "username": "Olimov",
+        "gmail": "aziz@gmail.com",
+        "password": 1111,
+        "role": "user",
+        "id": 2
+    },
+    {
+        "fullname": "Aziz",
+        "username": "Olimov",
+        "gmail": "aziz@gmail.com",
+        "password": 1111,
+        "role": "user",
+        "id": 2
+    },
+    {
+        "fullname": "Aziz",
+        "username": "Olimov",
+        "gmail": "aziz@gmail.com",
+        "password": 1111,
+        "role": "user",
+        "id": 2
+    },
+    {
+        "fullname": "Aziz",
+        "username": "Olimov",
+        "gmail": "aziz@gmail.com",
+        "password": 1111,
+        "role": "user",
+        "id": 2
+    },
+    {
+        "fullname": "Aziz",
+        "username": "Olimov",
+        "gmail": "aziz@gmail.com",
+        "password": 1111,
+        "role": "user",
+        "id": 2
+    }
+]

@@ -1,0 +1,3 @@
+
+Count: 6, Food: lavash, Stol: 23
+Count: 6, Food: lavash, Stol: 23
