@@ -1,0 +1,41 @@
+1)HTML nma ? Javob --> HTML (HyperText Markup Language)Bunda orqali matn, rasm vidio aoudio vahokazolar web sahifaga joylashtiramiz
+2) html da nechta va qanday qonun qoidalar bor? Javob --> Har bir teg ochilsa (<>), yopilishi kerak (</>), ba'zi hollarda yopish talab qilinmaydi (masalan, <img>, <input>)
+3) nechta teglar mavjud Javob --><head></head>, <body></body>, <html></html> <h1></h1>, <h2></h2>, <h3></h3>, <h4></h4>, <button></button> vahokazo
+4)CSS nma? Javob --> bu Html da yozgan kodlarimizga disayn berish animatsiya berish uchun foydalanadigon dasturlash tili
+5) Css da nechta va qanday qonun qoidalar bor?
+6)js qanday dasturlash tili? Javob -->JavaScript — dinamik, interpreted, va ko‘p platformali dasturlash tili
+7)Js da nechta malumot turi bor qanday? javob --> 3 ta malumot turlari mavjud bular let var const...
+8) reference va primitiv nma? Javob --> Primitive: Reference: Murakkab ma'lumotlar turlari ular qiymatning joylashgan manzilini saqlaydi.Primitive: Oddiy ma'lumotlar turlari ular qiymatni to‘g‘ridan-to‘g‘ri saqlaydi.
+9)O'zgaruvchi yaratish turlari va farqlari? Javob --> 
+10)closure nma?
+11)function turlari? Javob --> function excpression, function error
+12)scope nma qanday ishlaydi?
+13)execution context tuliq tushintiring
+14)map, set, weakmap va wakset nma qanday +/- rali bor Javob --> Set da unikal qiymatlarni olib tashlaydi va biz uzgartira oomaymiz
+15)Date orqali qanday qilib kun oy yil olinadi? Javob --> birinchi bulib o'zgaruvchi ochvolamiz let date = Date() va kegin consol.log(date.getDay), consol.log(date.getMonth), consol.log(date.getYear)
+16)Call applly va bind qanday ishlaydi?
+17)Promise nma? Javob --> Promis setTimeOut da ishlatilinadi promisda 2 ta qiymat keladi resolve, reject resolve true holatda ishlaydi resolve false holatda ishlaydi 
+18)Promis yarating? Javob --> let a2 = new Promise((resolve, reject) => {});
+19)Promis xolatlarini yozing?
+20)Promisga qanday parametr yoziladi? javob --> resolve, reject
+21)OOP nma va metodlari? Javob --> yaratishi Class metodlari this, constructor, 
+22)inheretance nma?
+23)Encapsulation nma?
+24)mixin nma va misol yozin?
+25)descracturing nma?
+26) error handing nma?
+27)axios nma? Javob --> axios ni API dan malumot olib kelishda kuproq ishlatamiz
+28)axois da crud yozib bering? 
+29)Git nma?
+30)Git Hub nma? Javob --> Git bu yozgan kodlarimizni saqlash uchun ishlatamiz Dasturchilar online ishlashyatganda Git orqalik aloqa qilib kodlarini bir birlariga osson tarzda junata olishadi
+31)Git orqalik ohirigi codelarni qanday olinadi? 
+32)Git orqalik ohirigi codelarni qanday yuklanadi? 
+33)Git orqalik codelarni qanday olish kerak?
+34)Array metodlarini yozib bering? Javob --> (slice(n, m) -- > n chi indexda m chi indexgacha bulgan malumotlarni oladi (map --> har bir elementni i ga kupaytiradi), (find((x) => x > 3); // 3 dan katta bo'lgan birinchi elementni topadi), (findIndex((x) => x > 3); // 3 dan katta bo'lgan birinchi elementning indeksini topadi) vahokazo) 
+35)String metodlarini yozib bering? Javob --> (trim(); // Boshi va oxiridagi bo‘sh joylarni olib tashlash), (toUpperCase(); // Barcha harflarni katta harfga aylantirish), (toLowerCase(); // Barcha harflarni kichik harfga aylantirish), (replace("World", "Universe"); // "World" ni "Universe" bilan almashtirish), (str.concat(" Let's learn!"); // Stringni qo‘shish (birlashtirish)), (concat(" Let's learn!"); // Stringni qo‘shish (birlashtirish)), (repeat(2); // Stringni ikki marta takrorlash)
+36)Number metodlarini yozib bering? Javob --> 
+37)Dom nma? Javob--> document Object Model
+38)Bom nma?
+39)domda eventlar qanday yoziladi?
+40) scpturing va bubling nma?
+41)hoisting qanday ishlaydi?

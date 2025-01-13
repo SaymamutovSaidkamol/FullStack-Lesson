@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btns{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.btns button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: none;
+    border-style: none;
+}
+
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.news{
+    width: 20%;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.news .name{
+    width: 100%;
+}
+.news .date{
+    width: 100%;
+}
+.news .title{
+    width: 100%;
+}
+.news .desc{
+    width: 100%;
+}
+.news .local{
+    width: 100%;
+}
+
+.news .icon{
+    width: 100%;
+    background-color: aquamarine;
+    border-style: none;
+    font-size: 25px;
+}
+.news .icon i{
+    color: rgb(208, 89, 89);
+}
