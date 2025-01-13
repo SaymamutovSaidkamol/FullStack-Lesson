@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung",
+        "price": 5000000,
+        "color": "red",
+        "category": 1
+    },
+    {
+        "id": 2,
+        "name": "Artel",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 3,
+        "name": "LG",
+        "price": 3000000,
+        "color": "white",
+        "category": 1
+    },
+    {
+        "id": 4,
+        "name": "Redmi",
+        "price": 2000000,
+        "color": "gold",
+        "category": 2
+    },
+    {
+        "id": 5,
+        "name": "Samsung",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 6,
+        "name": "Iphone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 7,
+        "name": "Asus",
+        "price": 7000000,
+        "color": "black",
+        "category": 3
+    },
+    {
+        "id": 8,
+        "name": "Lenovo",
+        "price": 7000000,
+        "color": "gold",
+        "category": 3
+    },
+    {
+        "id": 9,
+        "name": "Victuus",
+        "price": 7000000,
+        "color": "white",
+        "category": 3
+    },
+    {
+        "id": 10,
+        "name": "Planshet Samsung",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 11,
+        "name": "Planshet Lenova",
+        "price": 1500000,
+        "color": "gold",
+        "category": 4
+    },
+    {
+        "id": 12,
+        "name": "Planshet Iphone",
+        "price": 1500000,
+        "color": "white",
+        "category": 4
+    },
+    {
+        "id": 13,
+        "name": "Rolex",
+        "price": 500000,
+        "color": "black",
+        "category": 5
+    },
+    {
+        "id": 14,
+        "name": "Smart watch",
+        "price": 500000,
+        "color": "white",
+        "category": 5
+    },
+    {
+        "id": 15,
+        "name": "Klassik Wotch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 16,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "blue",
+        "category": 6
+    },
+    {
+        "id": 17,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "red",
+        "category": 6
+    },
+    {
+        "id": 18,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    },
+    {
+        "id": 19,
+        "name": "TV",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 20,
+        "name": "TV",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 21,
+        "name": "Phone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 22,
+        "name": "Phone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 23,
+        "name": "Laptop",
+        "price": 7000000,
+        "color": "gray",
+        "category": 3
+    },
+    {
+        "id": 24,
+        "name": "Laptop",
+        "price": 7000000,
+        "color": "gray",
+        "category": 3
+    },
+    {
+        "id": 25,
+        "name": "Tablet",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 26,
+        "name": "Tablet",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 27,
+        "name": "Watch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 28,
+        "name": "Watch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 29,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    },
+    {
+        "id": 30,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    },
+    {
+        "id": 31,
+        "name": "TV",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 32,
+        "name": "Phone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 33,
+        "name": "Laptop",
+        "price": 7000000,
+        "color": "gray",
+        "category": 3
+    },
+    {
+        "id": 34,
+        "name": "Tablet",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 35,
+        "name": "Watch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 36,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    },
+    {
+        "id": 37,
+        "name": "TV",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 38,
+        "name": "Phone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 39,
+        "name": "Laptop",
+        "price": 7000000,
+        "color": "gray",
+        "category": 3
+    },
+    {
+        "id": 40,
+        "name": "Tablet",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 41,
+        "name": "Watch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 42,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    },
+    {
+        "id": 43,
+        "name": "TV",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 44,
+        "name": "Phone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 45,
+        "name": "Laptop",
+        "price": 7000000,
+        "color": "gray",
+        "category": 3
+    },
+    {
+        "id": 46,
+        "name": "Tablet",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 47,
+        "name": "Watch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 48,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    },
+    {
+        "id": 49,
+        "name": "TV",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 50,
+        "name": "Phone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 51,
+        "name": "Laptop",
+        "price": 7000000,
+        "color": "gray",
+        "category": 3
+    },
+    {
+        "id": 52,
+        "name": "Tablet",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 53,
+        "name": "Watch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 54,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    },
+    {
+        "id": 55,
+        "name": "TV",
+        "price": 3000000,
+        "color": "black",
+        "category": 1
+    },
+    {
+        "id": 56,
+        "name": "Phone",
+        "price": 2000000,
+        "color": "white",
+        "category": 2
+    },
+    {
+        "id": 57,
+        "name": "Laptop",
+        "price": 7000000,
+        "color": "gray",
+        "category": 3
+    },
+    {
+        "id": 58,
+        "name": "Tablet",
+        "price": 1500000,
+        "color": "silver",
+        "category": 4
+    },
+    {
+        "id": 59,
+        "name": "Watch",
+        "price": 500000,
+        "color": "gold",
+        "category": 5
+    },
+    {
+        "id": 60,
+        "name": "Speaker",
+        "price": 800000,
+        "color": "black",
+        "category": 6
+    }
+]
