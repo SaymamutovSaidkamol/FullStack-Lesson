@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+
+.top-nav {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(184, 184, 184);
+  width: 90%;
+  margin: 5px auto;
+}
+
+.left {
+  display: flex;
+  gap: 5px;
+}
+
+.call {
+  color: gray;
+}
+
+.tg {
+  color: rgb(69, 173, 243);
+}
+.wa {
+  color: rgb(0, 226, 0);
+}
+
+.right {
+  display: flex;
+  gap: 6px;
+}
+.login {
+  border-right: 1px solid black;
+  padding-right: 4px;
+}
+
+/* ____ */
+
+.nav {
+  display: flex;
+  width: 90%;
+  margin: 8px auto;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mid div {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.mid input {
+  width: 100%;
+  padding: 6px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.mid form {
+  display: flex;
+  align-items: center;
+  border: 1px solid orangered;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.mid form i {
+  font-size: 18px;
+  padding: 10px;
+}
+.shop {
+  display: flex;
+  gap: 7px;
+  font-size: 22px;
+}
+
+.bag {
+  position: relative;
+}
+.bag p {
+  position: absolute;
+  bottom: 40px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  right: -6px;
+  background-color: orange;
+  font-size: 10px;
+}
+.header {
+  margin: 40px 0;
+}
+
+.container-2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.info {
+  display: flex;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  border-radius: 10px;
+  gap: 30px;
+}
+.info-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.info img {
+  width: 40%;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.pages button {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid rgb(189, 188, 188);
+  border-radius: 0;
+}
+
+.line {
+  width: 30px;
+  height: 1px;
+  border-bottom: 1px dashed rgb(196, 195, 195);
+}
+
+.cards {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  width: 23%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 10px;
+  font-size: 16px;
+  box-shadow: 0 0 6px 1px rgb(193, 192, 192);
+  align-items: center;
+}
+.card h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+span {
+  background-color: lightgreen;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+marquee {
+  margin: 30px 0;
+}
+
+.partners img {
+  margin: 10px 20px;
+  width: 100px;
+}
+.tg2 {
+  background-color: rgb(74, 183, 255);
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  font-size: 26px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.txt button {
+  border: 1px solid orange;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: orange;
+}
+
+.footer {
+  border-top: 1px solid gray;
+}
+
+.footer .container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer ul {
+  color: gray;
+  list-style-type: square;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bottom {
+  text-align: center;
+  display: flex;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    background-color: yellow;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px, 30px;
+    position: sticky;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.nav .a1{
+    padding-right: 20px;
+}
+.nav .a2{
+    padding-right: 30px;
+}
+.nav .a3{
+    padding-right: 30px;
+}
+
+.card{
+    width: 30%;
+    background-color: chartreuse;    
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card .vivo{
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.card .h1{
+    margin-left:15px;
+}
+.card .p1{
+    margin-left: 15px;
+}
+.card .p2{
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card .btn{
+    background-color: aqua;
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 60px;
+    
+}
+
+.nav1{
+    color: white;
+    background-color: blue;
+    margin-top: 50px;
+    padding: 150px;
+}
+
+.nav1 .h1{
+    margin-right: 200px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.nav1.li{
+    color: white;
+}
+
+.nav1 .h2{
+    text-align: center;
+}

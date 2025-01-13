@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: khaki;
+  padding: 10px 40px;
+}
+.nav h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav a {
+  padding: 0 20px;
+  vertical-align: middle;
+}
+.nav button {
+  margin-left: 500px;
+  padding: 10px 50px;
+  background-color: lightblue;
+  border-radius: 20px;
+  border: none;
+}
+
+.card {
+    border: 2px solid gray;
+    margin: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.card img {
+  vertical-align: middle;
+}
+.card .text {
+  margin-left: 30px;
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.text a {
+  color: blue;
+}
