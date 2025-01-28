@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#Groups{
+    width: 10%;
+    height: 35px;
+    background-color: rgb(211, 224, 237);
+    display: flex;
+    margin-left: 40%;
+    margin-top: 5%;
+    border: none;
+    color: black;
+    border-radius: 10px;
+}
+
+#messages1 {
+    width: 50%;
+    margin:50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 300px; 
+    overflow-y: auto;
+}
+
+
+.message-left {
+    width: 100%;
+    background-color: rgb(183, 183, 215);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 7px;
+    height: 30px;
+    border: 2px solid rgb(74, 70, 70);
+    text-align: left;
+    align-items: center;
+
+}
+
+
+.message-right {
+    background-color: rgb(196, 189, 182);
+    width: 100%;
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid rgb(74, 70, 70);
+}
+
+.all {
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.all #name{
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 2px;
+    width: 20%;
+    background-color: rgb(222, 226, 230);
+    border: none;
+    height: 30px;
+
+}
+.all #message{
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 2px;
+    width: 40%;
+    background-color: rgb(222, 226, 230);
+    border: none;
+    height: 30px;
+
+}
+.all #send{
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: rgb(19, 121, 224);
+    color: white;
+    border: none;
+    padding: 2px;
+    width: 20%;
+    height: 30px;
+}
+.all #file{
+    width: 6%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}

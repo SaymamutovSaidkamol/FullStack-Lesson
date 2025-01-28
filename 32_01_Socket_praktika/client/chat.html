@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="all">
+        <div class="all2">
+            <div class="jadval">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Users</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ustun">
+                    </tbody>
+                </table>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="From name..." id="from">
+                <input type="text" placeholder="Enter to name..." id="to-name">
+                <input type="text" placeholder="Enter to message..." id="msg">
+                <button id="button">Send</button>
+            </div>
+
+            <div class="notifications">
+                <h2>Habarlar</h2>
+                <ul id="messageList">
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+<script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
+
+
+

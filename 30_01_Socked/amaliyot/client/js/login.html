@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/login.css" />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="cartoon">
+          <img
+            src="https://i.ibb.co.com/98gpLCQ/l1.png"
+            alt=""
+            id="animation1"
+          />
+          <img
+            src="https://i.ibb.co.com/Vq5j4Vg/l2.png"
+            alt=""
+            id="animation2"
+            style="display: none"
+          />
+          <img
+            src="https://i.ibb.co.com/Y0jsj90/l3.png"
+            alt=""
+            id="animation3"
+            style="display: none"
+          />
+        </div>
+        <form method="post" action="<%process.env.HOST %>/login">
+          <div class="input-group">
+            <input
+              type="text"
+              placeholder="Username"
+              required
+              name="username"
+            />
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./login.js"></script>
+  </body>
+</html>
