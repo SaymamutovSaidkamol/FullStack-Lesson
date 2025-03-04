@@ -1,0 +1,780 @@
+{
+  message: 'ERROR: User not found;  Method: GET;  findOne-OrdernaryRoom',
+  level: 'info',
+  timestamp: '2025-02-14T14:21:25.439Z'
+}
+{
+  message: 'ERROR: "type" must be one of [Strong, Weak];  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T14:24:59.125Z'
+}
+{
+  message: 'ERROR: "type" must be one of [Strong, Weak];  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T14:26:57.210Z'
+}
+{
+  message: 'ERROR: "status" must be one of [Empty, Busy];  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T14:27:10.826Z'
+}
+{
+  message: 'ERROR: "Characteristics" must be a string;  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T14:27:25.193Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:30:32.998Z'
+}
+{
+  message: 'ERROR: "orders-comps" is not allowed;  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T14:38:23.662Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:40:49.468Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:41:04.144Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:41:23.305Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:43:03.344Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:43:37.054Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:43:46.696Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:45:20.088Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:45:49.255Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:45:57.207Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:52:27.997Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:52:31.360Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T14:55:02.540Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:55:54.018Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T14:59:20.755Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T15:00:06.030Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T15:10:26.551Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T15:10:40.034Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T15:12:05.643Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T15:13:41.384Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T15:18:53.301Z'
+}
+{
+  message: 'Method: GET;  findAll-Users',
+  level: 'info',
+  timestamp: '2025-02-14T15:22:54.153Z'
+}
+{
+  message: 'Method POST; Verify sendet-[763595];  User: {"role":"User","status":"Not active","id":1,"fullname":"Saidkamol","phone":9989234673,"password":"$2b$10$KnGXdnYsBdkoiwd36Xy1VePx6RlwXpGeqivTIZJO.Ldq28KQ4Yr2m","updatedAt":"2025-02-14T15:23:03.311Z","createdAt":"2025-02-14T15:23:03.311Z"}',
+  level: 'info',
+  timestamp: '2025-02-14T15:23:03.326Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T15:23:18.268Z'
+}
+{
+  message: 'ERROR: Wrong password;  Method POST; LOGIN',
+  level: 'info',
+  timestamp: '2025-02-14T15:23:22.082Z'
+}
+{
+  message: 'Method: GET;  findAll-Users',
+  level: 'info',
+  timestamp: '2025-02-14T15:23:26.090Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T15:24:45.949Z'
+}
+{
+  message: 'Method: GET;  findAll-Order',
+  level: 'info',
+  timestamp: '2025-02-14T15:24:50.042Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T15:25:13.761Z'
+}
+{
+  message: 'ERROR: User not found;  Method: GET;  findOne-OrdernaryRoom',
+  level: 'info',
+  timestamp: '2025-02-14T15:28:06.285Z'
+}
+{
+  message: 'Method: GET;  findAll-OrdernaryRoom',
+  level: 'info',
+  timestamp: '2025-02-14T15:28:11.184Z'
+}
+{
+  message: 'Method: GET;  findAll-OrdernaryRoom',
+  level: 'info',
+  timestamp: '2025-02-14T15:28:19.210Z'
+}
+{
+  message: 'Method: GET;  findAll-VipRoom',
+  level: 'info',
+  timestamp: '2025-02-14T15:40:25.366Z'
+}
+{
+  message: 'Method POST; Verify sendet-[735111];  User: {"role":"User","status":"Not active","id":1,"fullname":"Saidkamol","phone":9989234673,"password":"$2b$10$bbJ5BLLxaQ07I/Ppa1Han.y6GZIaResbDtrEp.FXjz57DsZxfz1hu","updatedAt":"2025-02-14T16:04:01.290Z","createdAt":"2025-02-14T16:04:01.290Z"}',
+  level: 'info',
+  timestamp: '2025-02-14T16:04:01.303Z'
+}
+{
+  message: 'ERROR: Wrong password;  Method POST; LOGIN',
+  level: 'info',
+  timestamp: '2025-02-14T16:04:14.015Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:04:18.767Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:04:24.565Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:05:26.792Z'
+}
+{
+  message: 'Method POST; Verify sendet-[999573];  User: {"role":"User","status":"Not active","id":1,"fullname":"Saidkamol","phone":9989234673,"password":"$2b$10$iVbCgADfrs4q1QgsE/9pI.EDmLzIfdsbj1Vxb/PdewgAP4rpEbv/u","updatedAt":"2025-02-14T16:07:25.312Z","createdAt":"2025-02-14T16:07:25.312Z"}',
+  level: 'info',
+  timestamp: '2025-02-14T16:07:25.329Z'
+}
+{
+  message: 'ERROR: Wrong OTP;  Method POST; VerifyOTP',
+  level: 'info',
+  timestamp: '2025-02-14T16:07:32.348Z'
+}
+{
+  message: 'NewOTP: [326855];   Method POST; REGISTER',
+  level: 'info',
+  timestamp: '2025-02-14T16:07:36.777Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:07:47.971Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:07:51.885Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:08:55.742Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:10:45.949Z'
+}
+{
+  message: 'Method POST; Verify sendet-[369382];  User: {"role":"User","status":"Not active","id":1,"fullname":"Saidkamol","phone":9989234673,"password":"$2b$10$Tg9XvJdFX9LpHxn88PjTEus8EfShoCpsiUT2yTMQYPDH4BE1CYLFq","updatedAt":"2025-02-14T16:12:00.623Z","createdAt":"2025-02-14T16:12:00.623Z"}',
+  level: 'info',
+  timestamp: '2025-02-14T16:12:00.634Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:12:11.204Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:12:14.710Z'
+}
+{
+  message: 'Method POST; Verify sendet-[006546];  User: {"role":"User","status":"Not active","id":1,"fullname":"Saidkamol","phone":9989234673,"password":"$2b$10$0Ctjajawvn9hDoR.gBWObO98mlytPo5fqDZIDgH8vCaJhZ6.WaEuy","updatedAt":"2025-02-14T16:13:17.189Z","createdAt":"2025-02-14T16:13:17.189Z"}',
+  level: 'info',
+  timestamp: '2025-02-14T16:13:17.199Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:13:28.668Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:13:35.983Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:13:55.417Z'
+}
+{
+  message: 'Method: GET;  findAll-VipRoom',
+  level: 'info',
+  timestamp: '2025-02-14T16:14:43.491Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:43:16.024Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:43:22.572Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:46:05.659Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:46:10.038Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:47:49.836Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:48:27.762Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:48:29.456Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T16:51:39.128Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:51:44.830Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:53:07.555Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:54:21.650Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:54:24.612Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:54:34.729Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:54:44.457Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:54:46.991Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:55:05.440Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:55:37.714Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:55:46.331Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:56:26.500Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:56:33.762Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:58:08.753Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:59:40.446Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T16:59:48.211Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:00:59.246Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:02:01.799Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:02:54.010Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:03:11.501Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:04:57.178Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:05:17.844Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:05:32.275Z'
+}
+{
+  message: 'ERROR: "img" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:05:49.663Z'
+}
+{
+  message: 'ERROR: "orderscomps" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:06:43.776Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:07:02.282Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:07:19.647Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:07:46.971Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:07:51.700Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:08:21.819Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:08:28.610Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:08:30.097Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:08:50.730Z'
+}
+{
+  message: 'ERROR: "orderscomps" is required;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:09:10.639Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:09:23.099Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:10:47.248Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:11:12.835Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:11:19.728Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:11:44.650Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:12:34.987Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:12:39.641Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:25:38.995Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:26:41.650Z'
+}
+{
+  message: 'Method: GET;  findAll-Users',
+  level: 'info',
+  timestamp: '2025-02-14T17:31:04.572Z'
+}
+{
+  message: 'Method POST; Verify sendet-[942327];  User: {"status":"Not active","id":2,"fullname":"Ahmadullo","phone":9989234673,"password":"$2b$10$kjlLFyXtnbGkIwtacklveeyomY11fRPIbxoGUFBgOMxWmZGnm.dS6","role":"Admin","updatedAt":"2025-02-14T17:31:25.596Z","createdAt":"2025-02-14T17:31:25.596Z"}',
+  level: 'info',
+  timestamp: '2025-02-14T17:31:25.632Z'
+}
+{
+  message: 'ERROR: Wrong OTP;  Method POST; VerifyOTP',
+  level: 'info',
+  timestamp: '2025-02-14T17:31:38.639Z'
+}
+{
+  message: 'NewOTP: [270361];   Method POST; REGISTER',
+  level: 'info',
+  timestamp: '2025-02-14T17:31:47.772Z'
+}
+{
+  message: 'ERROR: User not found;  Method POST; LOGIN',
+  level: 'info',
+  timestamp: '2025-02-14T17:32:06.900Z'
+}
+{
+  message: 'ERROR: Wrong password;  Method POST; LOGIN',
+  level: 'info',
+  timestamp: '2025-02-14T17:32:13.525Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:32:18.774Z'
+}
+{
+  message: 'ERROR: "status" must be one of [Empty, Busy];  Method: PATCH;  Update-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:34:55.346Z'
+}
+{
+  message: 'ERROR: "id" is not allowed;  Method: PATCH;  Update-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:35:07.368Z'
+}
+{
+  message: 'ERROR: User not found;  Method: DELETE;  Update-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:37:24.977Z'
+}
+{
+  message: 'Method: DELETE;  Delete-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:39:15.312Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:39:46.455Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:40:12.723Z'
+}
+{
+  message: "ERROR: Malumotlarni faqatgina Adminlar o'zgartira oladi;  Method DELETE; VerifyAdmin",
+  level: 'info',
+  timestamp: '2025-02-14T17:42:48.151Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:43:03.571Z'
+}
+{
+  message: 'ERROR: User not found;  Method: DELETE;  Update-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:43:48.996Z'
+}
+{
+  message: 'Method: DELETE;  Delete-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:43:52.763Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:44:21.669Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:44:40.293Z'
+}
+{
+  message: 'ERROR: User not found;  Method: DELETE;  Update-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:44:48.608Z'
+}
+{
+  message: 'ERROR: User not found;  Method: DELETE;  Delete-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:46:48.785Z'
+}
+{
+  message: 'Method: GET;  findAll-OrdernaryRoom',
+  level: 'info',
+  timestamp: '2025-02-14T17:51:37.998Z'
+}
+{
+  message: 'ERROR: "status" must be one of [Empty, Busy];  Method: PATCH;  Update-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:52:57.231Z'
+}
+{
+  message: 'ERROR: "status" must be one of [Empty, Busy];  Method: PATCH;  Update-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:54:00.176Z'
+}
+{
+  message: 'Method: GET;  findAll-Users',
+  level: 'info',
+  timestamp: '2025-02-14T17:54:24.534Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:54:35.516Z'
+}
+{
+  message: "ERROR: Malumotlarni faqatgina Adminlar o'zgartira oladi;  Method PATCH; VerifyAdmin",
+  level: 'info',
+  timestamp: '2025-02-14T17:54:47.939Z'
+}
+{
+  message: "ERROR: Malumotlarni faqatgina Adminlar o'zgartira oladi;  Method DELETE; VerifyAdmin",
+  level: 'info',
+  timestamp: '2025-02-14T17:55:03.160Z'
+}
+{
+  message: 'Method POST; LOGIN-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:55:16.607Z'
+}
+{
+  message: 'Method: DELETE;  Delete-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T17:55:41.233Z'
+}
+{
+  message: 'Method: GET;  findAll-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:56:12.818Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-OrdernaryRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:56:39.609Z'
+}
+{
+  message: 'Method: GET;  findAll-Order',
+  level: 'info',
+  timestamp: '2025-02-14T17:58:13.091Z'
+}
+{
+  message: 'Method: GET;  findAll-Order',
+  level: 'info',
+  timestamp: '2025-02-14T18:10:01.212Z'
+}
+{
+  message: 'Method: GET;  findAll-OrdernaryRoom',
+  level: 'info',
+  timestamp: '2025-02-14T18:13:51.363Z'
+}
+{
+  message: 'Method: GET;  findAll-OrdernaryRoom',
+  level: 'info',
+  timestamp: '2025-02-14T18:20:31.960Z'
+}
+{
+  message: 'Method: GET;  findAll-Order',
+  level: 'info',
+  timestamp: '2025-02-14T18:26:09.003Z'
+}
+{
+  message: 'Method: POST;  Create-OrdernaryRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:26:18.685Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:27:45.857Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:27:47.417Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:27:48.648Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:27:59.912Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:28:01.323Z'
+}
+{
+  message: 'Method: POST;  Create-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:28:02.663Z'
+}
+{
+  message: 'Method: GET;  findAll-Order',
+  level: 'info',
+  timestamp: '2025-02-14T18:28:06.276Z'
+}
+{
+  message: 'ERROR: This room is occupied.;  Method: POST;  Create-VipRoom-Order',
+  level: 'info',
+  timestamp: '2025-02-14T18:28:35.468Z'
+}
+{
+  message: 'Method: POST;  Create-VipRoom-ACCES',
+  level: 'info',
+  timestamp: '2025-02-14T18:28:41.638Z'
+}

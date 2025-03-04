@@ -1,0 +1,105 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Region {
+  id               Int                @id @default(autoincrement())
+  name             String
+  Users            Users[]
+  RegionBannerItem RegionBannerItem[]
+}
+
+model Users {
+  id          Int           @id @default(autoincrement())
+  firstName   String
+  lastName    String
+  phone       String
+  email       String
+  password    String
+  regionId    Int
+  role        String
+  status      String
+  Comment     Comment[]
+  Likes       Likes[]
+  Banners     Banners[]
+  Tranzaction Tranzaction[]
+  region      Region        @relation(fields: [regionId], references: [id])
+}
+
+model Comment {
+  id       Int    @id @default(autoincrement())
+  name     String
+  authorId Int
+  bannerId Int
+
+  banner Banners @relation(fields: [bannerId], references: [id])
+  author Users   @relation(fields: [authorId], references: [id])
+}
+
+model Likes {
+  id       Int @id @default(autoincrement())
+  bannerId Int
+  authorId Int
+
+  banner Banners @relation(fields: [bannerId], references: [id])
+  author Users   @relation(fields: [authorId], references: [id])
+}
+
+model RegionBannerItem {
+  id       Int @id @default(autoincrement())
+  bannerId Int
+  regionId Int
+
+  banner Banners @relation(fields: [bannerId], references: [id])
+  region Region  @relation(fields: [regionId], references: [id])
+}
+
+model Banners {
+  id               Int                @id @default(autoincrement())
+  name             String
+  description      String
+  balance          Float
+  target           Float
+  authorId         Int
+  img              String
+  categoryId       Int
+  status           String
+
+  
+  Likes            Likes[]
+  RegionBannerItem RegionBannerItem[]
+  Tranzaction      Tranzaction[]
+
+  author   Users     @relation(fields: [authorId], references: [id])
+  category Category  @relation(fields: [categoryId], references: [id])
+  Comment  Comment[]
+}
+
+model Category {
+  id      Int       @id @default(autoincrement())
+  name    String
+  img     String
+  Banners Banners[]
+}
+
+model Tranzaction {
+  id       Int    @id @default(autoincrement())
+  authorId Int
+  bannerId Int
+  summa    Float
+  comment  String
+
+  author Users   @relation(fields: [authorId], references: [id])
+  banner Banners @relation(fields: [bannerId], references: [id])
+}

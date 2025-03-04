@@ -1,0 +1,85 @@
+{
+  message: 'Error Method: POST,  User: {"id":1,"user_name":"banan","product_name":"banan","count":12,"createdAt":"2025-02-13T10:11:09.000Z","updatedAt":"2025-02-13T10:11:09.000Z"};  buy: 13;  Userni tavari yetmaydi.',
+  level: 'error',
+  timestamp: '2025-02-13T11:00:52.647Z'
+}
+{
+  message: 'Method: GET All',
+  level: 'info',
+  timestamp: '2025-02-13T11:05:45.175Z'
+}
+{
+  message: 'Method: GET All',
+  level: 'info',
+  timestamp: '2025-02-13T11:06:41.330Z'
+}
+{
+  message: 'Method: DELETE, User {"id":1,"user_name":"banan","product_name":"banan","count":0,"createdAt":"2025-02-13T10:11:09.000Z","updatedAt":"2025-02-13T11:06:36.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:11:30.117Z'
+}
+{
+  message: 'Error Method: POST, User not found.',
+  level: 'error',
+  timestamp: '2025-02-13T11:11:40.029Z'
+}
+{
+  message: 'Method: GET All',
+  level: 'info',
+  timestamp: '2025-02-13T11:11:51.036Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Qolgan tavar = 11;  User: {"id":2,"user_name":"banan","product_name":"banan","count":12,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T10:11:11.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:12:03.125Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Qolgan tavar = 10;  User: [1]',
+  level: 'info',
+  timestamp: '2025-02-13T11:13:10.653Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Qolgan tavar = 9;  User: {"id":2,"user_name":"banan","product_name":"banan","count":10,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:13:10.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:13:33.053Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Qolgan tavar = 8;  User: {"id":2,"user_name":"banan","product_name":"banan","count":9,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:13:33.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:13:40.317Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Jami tavar = 9;  User: {"id":2,"user_name":"banan","product_name":"banan","count":8,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:13:40.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:19:45.583Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Jami tavar = 10;  User: {"id":2,"user_name":"banan","product_name":"banan","count":9,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:19:45.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:21:28.119Z'
+}
+{
+  message: 'Method: GET All',
+  level: 'info',
+  timestamp: '2025-02-13T11:21:49.648Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Jami tavar = 11;  User: {"id":2,"user_name":"banan","product_name":"banan","count":10,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:21:28.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:22:41.529Z'
+}
+{
+  message: 'Method: POST, Sotib olingan tavar = 1;  Jami tavar = 12;  User: {"id":2,"user_name":"banan","product_name":"banan","count":12,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:40:06.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:40:06.052Z'
+}
+{
+  message: 'Method: POST, Sotilgan tavar = 1;  Qolgan tavar = 11;  User: {"id":2,"user_name":"banan","product_name":"banan","count":12,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:40:06.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:40:24.374Z'
+}
+{
+  message: 'Method: POST, Sotilgan tavar = 1;  Qolgan tavar = 10;  User: {"id":2,"user_name":"banan","product_name":"banan","count":10,"createdAt":"2025-02-13T10:11:11.000Z","updatedAt":"2025-02-13T11:41:25.000Z"}',
+  level: 'info',
+  timestamp: '2025-02-13T11:41:25.832Z'
+}
